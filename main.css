@@ -103,8 +103,8 @@ body{
   background: #fff;
   flex:1;
 
-  margin-left: 3.5%;
-  margin-right: 3.5%;
+  margin-left: 1%;
+  margin-right: 1%;
   margin-top: 20px;
   padding-bottom:20px;
 }
@@ -120,4 +120,11 @@ body{
 }
 #skills:last-child{
   margin-right:0;
+}
+
+#skills .skill .skillText{
+  text-align: justify;
+  width:80%;
+  margin: auto;
+  line-height: 2;
 }
