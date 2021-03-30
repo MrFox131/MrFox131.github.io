@@ -147,7 +147,33 @@ body{
   text-decoration: none;
 }
 
+#cards{
+  display: flex;
+  flex-flow: column wrap;
+}
+
+#cards .card{
+  flex:1;
+  margin:10px;
+  background: rgb(225,225,225);
+  text-align: center;
+}
+#cards .card img{
+  margin-bottom: 10px;
+  max-width: 100%;
+  max-height: 100%;
+}
+#cards .card .cardName{
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
 @media (min-width: 1279px) {
+  #cards{
+    display: flex;
+    flex-flow: row wrap;
+  }
   #navbar .navbarHeader{
     font-weight: 600;
     font-size: 20px;
