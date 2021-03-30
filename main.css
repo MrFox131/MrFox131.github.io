@@ -172,6 +172,7 @@ table{
   border: black solid 1px;
   margin:auto;
   margin-top:10px;
+  border-spacing: 0 15px;
 }
 table tr th{
   padding:10px;
@@ -182,6 +183,7 @@ table tr th{
 tr:nth-child(2n){
   background: rgb(225,225,225);
 }
+
 
 @media (min-width: 1279px) {
   #cards{
