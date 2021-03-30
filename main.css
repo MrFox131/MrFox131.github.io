@@ -69,7 +69,7 @@ body{
 
 #skills{
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
 
   background-color: rgb(225,225,225);
   padding-top: 30px;
@@ -82,6 +82,12 @@ body{
     padding-left:10%;
     padding-right: 10%;
   }
+  #skills{
+    flex-direction: row
+  }
+  #skills .skill{
+    margin-top: 0;
+  }
 }
 
 #skills .skill{
@@ -90,6 +96,7 @@ body{
 
   margin-left: 20px;
   margin-right: 20px;
+  margin-top: 20px;
 }
 #skills .skill h4{
   text-align: center;
