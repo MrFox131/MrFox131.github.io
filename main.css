@@ -46,6 +46,7 @@ body{
   align-items: center;
   align-content: center;
   width:100%;
+  background: #fff;
 }
 
 #navbar .navbarHeader{
