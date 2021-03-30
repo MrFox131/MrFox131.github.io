@@ -51,15 +51,16 @@ body{
 #navbar .navbarHeader{
   font-weight: 600;
   font-size: 20px;
-  position: absolute;
-  left:15%;
-  top:7px;
+  text-align: center;
+  margin-top: 10px;
+  position: relative;
   font-family: 'Press Start 2P';
 }
 
 #navbar ul{
   margin-top: 30px;
   list-style: none;
+  padding:0;
 }
 #navbar ul il{
   text-transform: uppercase;
@@ -77,7 +78,15 @@ body{
   padding-left: 10px;
   padding-right: 10px;
 }
-@media (min-width: 1000px) {
+@media (min-width: 1279px) {
+  #navbar .navbarHeader{
+    font-weight: 600;
+    font-size: 20px;
+    position: absolute;
+    left:15%;
+    top:7px;
+    font-family: 'Press Start 2P';
+  }
   #skills{
     padding-left:10%;
     padding-right: 10%;
@@ -94,8 +103,8 @@ body{
   background: #fff;
   flex:1;
 
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 7%;
+  margin-right: 7%;
   margin-top: 20px;
 }
 #skills .skill h4{
