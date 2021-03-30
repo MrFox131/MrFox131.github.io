@@ -23,15 +23,15 @@ body{
   justify-content: center;
   height:100vh;
 }
-.header_hello{
+.headerHello{
   position: relative;
 }
-.smaller{
+.smallerHelloText{
   color: white;
   font-weight: 500;
 
 }
-.main{
+.mainHelloText{
   color:white;
   font-weight: 500;
   font-size: 50px;
